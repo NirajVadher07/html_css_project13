@@ -207,3 +207,65 @@
 .txt h4{
     padding: 10px;
 }
+@media screen and (max-width:900px){
+    .navbar{
+        height: fit-content;
+    }
+    .navbar1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        padding: 5px;
+    }
+    .list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .navbar2{
+        flex-direction: column-reverse;
+        height: fit-content;
+        padding: 10px;
+    }
+    .navbartext{
+        width: 100%;
+    }
+    .navbarimg{
+        width: 100%;
+    }
+    .main-content1{
+        flex-direction: column;
+        height: fit-content;
+    }
+    .mcimg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .mctxt{
+        width: 90%;
+        padding: 5px;
+    }
+    .mcsubtxt2{
+        margin: 1%;
+    }
+    .main-content2{
+        height: fit-content;
+    }
+    .mc2txt{
+        width: 100%;
+        padding: 10px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .card{
+        width: 50%;
+        margin: 1%;
+        padding: 5px;
+        border-radius: 15px;
+    }
+    .txt{
+        margin: 1%;
+    }
+}
